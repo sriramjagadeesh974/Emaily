@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": "22.16.0",
-    "npm": "10.9.2"
+    "node": "22.19.0",
+    "npm": "10.9.3"
   },
   "scripts": {
     "start": "node index.js",
@@ -14,9 +14,20 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cookie-session": "^2.1.1",
     "express": "^5.1.0",
+    "mongoose": "^8.18.1",
     "nodemon": "^3.1.10",
-    "passport": "^0.7.0",
+    "passport": "^0.5.3",
     "passport-google-oauth20": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriramjagadeesh974/Emaily.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sriramjagadeesh974/Emaily/issues"
+  },
+  "homepage": "https://github.com/sriramjagadeesh974/Emaily#readme"
 }
